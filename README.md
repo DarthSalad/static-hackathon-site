@@ -1,15 +1,8 @@
-# Something Big
+# Odia-preneur
 
-This is the Website for Meenachil Hacks, a 24Hour National Level Hackathon which aims to reduce the gap between the Public and the Hacker Community.
+This is the website for Odiapreneur: A unique hybrid ideathon / hackathon for higher secondary students of Odisha revolving around themes of Renewable Energy.
  
 ## Running the Website
-```bash
-git clone https://github.com/meenhacks/meenhacks.github.io.git 
-cd meenhacks.github.io
-#python 2
-python -m SimpleHTTPServer 
-#python3
-python -m http.server
-``` 
-*Or by Running `$ sh run.sh` on Unix-like OS*
-> You can now browse at [localhost:8000](localhost:8000)
+- clone the repo
+- use the ``Live Server`` extension on VS Code by **Ritwick Dey** for serving the HTML on a live server
+- Edit the HTML or CSS and see the changes reflected live on your browser
