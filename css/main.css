@@ -121,7 +121,7 @@
 
 .wrapper {
     position: relative;
-    background: #000000;
+    /* background: #000000; */
 }
 .wrapper,
 .header {
@@ -134,7 +134,7 @@
 /* Hero Section*/
 
 section.hero {
-    background: #353031;
+    /* background: #353031; */
     padding: 0;
     position: relative;
     overflow: hidden;
@@ -152,7 +152,7 @@ section.single-hero {
 .background-img {
     background-attachment: scroll;
     background-clip: border-box;
-    background-color: #353031;
+    /* background-color: #353031; */
     background-origin: padding-box;
     background-position: 50% 30% !important;
     background-repeat: no-repeat;
