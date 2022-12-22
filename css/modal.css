@@ -1,0 +1,100 @@
+.readMore {
+    border: 0.1rem solid #867f7f;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.7rem;
+    width: fit-content;
+    margin-top: 1.7rem;
+    font-weight: 700;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.readMore:hover {
+    background: white;
+    color: #05223f;
+}
+
+/* Modal start */
+
+.modal-window {
+    position: fixed;
+    background-color: rgba(123, 121, 121, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+    color: black;
+}
+
+.modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-window>div {
+    width: calc(931px - 4em);
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    height: calc(100% - 7rem);
+    padding-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 0 1rem;
+}
+
+.modal-window>div::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-close {
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 90%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100px;
+    text-decoration: none;
+}
+
+.modal-close:hover {
+    color: black;
+}
+
+.problem>div:nth-of-type(1) {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.problem>div:nth-of-type(2) {
+    margin-bottom: 1.5rem;
+}
+
+.problem ul {
+    padding-left: 0.9rem;
+}
+
+.problem li:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+
+@media (max-width:1000px) {
+    .modal-window>div {
+        max-width: unset;
+        width: calc(100vw - 6rem);
+    }
+}
+
+/* Modal end */
