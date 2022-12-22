@@ -545,25 +545,20 @@ ul.block-topic li {
     padding: 25px;
     cursor: pointer;
     overflow: hidden;
-}
-.block-tab .block-detail2 {
-    border-bottom: 1px solid #444444;
-    padding: 25px;
-    cursor: pointer;
-    overflow: hidden;
-    opacity: 0;
-    max-height: 0;
+    max-height: 100px;
 }
 .block-tab .block-detail:hover {
     background: #121212;
+    overflow-y:auto;
+    max-height: 300px;
 }
-.block-tab .block-detail2:hover {
+/* .block-tab .block-detail2:hover {
     background: #121212;
     max-height: 300px;
     opacity: 1;
     overflow-y:auto;
     padding-bottom: 20px;
-}
+} */
 .block-tab .block-detail span {
     display: block;
     font-size: 15px;
