@@ -545,10 +545,20 @@ ul.block-topic li {
     padding: 25px;
     cursor: pointer;
     overflow: hidden;
+    max-height: 100px;
 }
 .block-tab .block-detail:hover {
     background: #121212;
+    overflow-y:auto;
+    max-height: 300px;
 }
+/* .block-tab .block-detail2:hover {
+    background: #121212;
+    max-height: 300px;
+    opacity: 1;
+    overflow-y:auto;
+    padding-bottom: 20px;
+} */
 .block-tab .block-detail span {
     display: block;
     font-size: 15px;
@@ -570,12 +580,36 @@ ul.block-topic li {
     opacity: 0;
     max-height: 0;
 }
+.block-tab .block-detail2 .block-text {
+    opacity: 0;
+    max-height: 0;
+}
+
+.block-text a {
+    text-decoration: none;
+    color: #444444;
+}
 .block-tab .block-detail:hover .block-text {
-    padding-top: 20px;
     max-height: 300px;
     opacity: 1;
 }
+.block-tab .block-detail2:hover .block-text {
+    max-height: 300px;
+    opacity: 1;
+}
+.block-tab .block-detail2:hover .block-text a{
+    text-decoration: none;
+    color: #747474;
+}
 .block-tab li .block-detail:last-child {
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+}
+.block-tab li .block-detail2:last-child {
     border-bottom: 0;
     border-radius: 0 0 5px 5px;
     -webkit-border-radius: 0 0 5px 5px;
