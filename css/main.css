@@ -587,7 +587,7 @@ ul.block-topic li {
 
 .block-text a {
     text-decoration: none;
-    color: #444444;
+    color: #9b9b9b;
 }
 .block-tab .block-detail:hover .block-text {
     max-height: 300px;
@@ -599,7 +599,7 @@ ul.block-topic li {
 }
 .block-tab .block-detail2:hover .block-text a{
     text-decoration: none;
-    color: #747474;
+    color: #e1e1e1;
 }
 .block-tab li .block-detail:last-child {
     border-bottom: 0;
